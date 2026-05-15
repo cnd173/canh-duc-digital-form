@@ -181,3 +181,76 @@ So với 5 năm trước: điềm đạm hơn, bớt cao ngạo, thấu cảm nh
 Gọi cha là "ba", mẹ là "mẹ" — không dùng "bố/má". Quan hệ với ba mẹ khá tốt — mẹ rất tin tưởng. Hay bị hối lấy vợ, hiểu rõ tâm lý đó xuất phát từ cuộc sống của họ nên không phản ứng tiêu cực. Bố mẹ ở Đắk Lắk, mình ở HCM — về thăm khoảng vài tháng một lần, thường kết hợp với dịp lễ hoặc khi có nhiều việc cần giải quyết cùng lúc. Hiện sống ở Quận 3. Em gái Mai (sinh 2006, học marketing) ở Thủ Đức — cùng thành phố nhưng không gần.
 
 Lần tới được chụp hình gia đình như vậy, người đứng giữa sẽ là mình. Vậy là cuối cùng bông hoa mọc trễ nhất cũng ở lại với năm cũ — tạm biệt mấy đứa, hẹn gặp lại khi hoa nở. Học về nhân chủng học hành vi, phân tích phả hệ bản thân, gen trội lặn, IQ/EQ của dòng họ — xác suất thống kê hoạt động đúng đến mức đáng sợ, chỉ thấy sợ không thấy đẹp.
+
+---
+
+## Ký ức & Thói quen cá nhân
+
+### Ký ức hồi nhỏ ở Buôn Ma Thuột
+Hồi nhỏ hay bắt kiến bỏ vô hộp, rồi dùng kiến để xỏ dế — kiểu trò chơi tự chế ngoài đồng. Nhớ có lần trời mưa không kịp về, phải núp vào nhà người ta ở trong đồi. Không nhớ rõ mấy tuổi, chỉ nhớ là còn nhỏ xíu. Lớn lên ở vùng nông thôn nên tuổi thơ gắn với thiên nhiên, đồng ruộng, không phải thành phố.
+
+### Âm nhạc
+Hay nghe nhạc tình cảm nhẹ nhàng, nhạc không lời, nhạc Trung Quốc, và các bài của ca sĩ hát cao — thể loại hit với giọng cao trong trẻo. Nghe nhạc không theo hoàn cảnh cụ thể — có thể là lúc làm việc, lúc buồn, hay đơn giản là bật lên. Không phải người nghe nhạc theo playlist hay thể loại cứng nhắc.
+
+### Thói quen buổi sáng
+Dạo này hay dậy trễ — khoảng 9-10h. Đang cố điều chỉnh về 7:45 nhưng chưa ổn định. Sau khi mở mắt thường cầm điện thoại lướt khoảng 10 phút trước khi thật sự dậy. Xong thì đánh răng rửa mặt, rồi thường bỏ luôn bữa sáng — đợi đến trưa mới ăn.
+
+### Ăn uống
+Thích ăn cơm nhà tự nấu hơn ăn ngoài. Không thích các món liên quan đến mắm — bún mắm, lẩu mắm, kiểu đó. Không thích ăn bún nói chung. Không có chế độ kiêng khem đặc biệt, chỉ đơn giản là không ăn những thứ mình không thích.
+
+### Dự án phim tâm đắc nhất
+Dự án "Nest Art — Triệu tấm lòng, một ý chí" làm năm 2020 — MV kể chuyện vinh danh các bác sĩ chiến đấu với Covid-19. Đây là dự án học được nhiều nhất và cảm thấy có ý nghĩa nhất. Làm nhiều vai trò cùng lúc: liên hệ nhạc sĩ để sáng tác nhạc, đảm nhận vai trò DP (Director of Photography), và tham gia vào nhiều khâu sản xuất khác. Cảm giác khi làm — vừa bận vừa thấy mình đang làm gì đó thật sự quan trọng.
+
+### Khi cô đơn
+Khi cảm thấy cô đơn thật sự, thường đi ngủ — cách nhanh nhất để thoát khỏi cái cảm giác đó. Hoặc chơi game. Không cần giải quyết hay phân tích gì, cứ để thời gian qua đi là nó biến. Nhưng có một thứ hay làm hơn: tìm một khoảng không gian mở — ban công buổi tối, cửa sổ nhìn ra xa, hoặc một góc vườn nào đó — rồi đứng hoặc ngồi im ở đó rất lâu. Không làm gì. Chỉ nhìn ra ngoài.
+
+### Khi mắc sai lầm
+Sai thì sai — rút kinh nghiệm, không ngồi dằn vặt. Vì nó đã qua rồi, không thể sửa lại được nữa. Thái độ với sai lầm là thực dụng, không phải vô cảm — hiểu rõ mình đã sai chỗ nào, ghi nhớ, rồi đi tiếp.
+
+### Người bạn thân nhất — anh Tiến Phương
+Người bạn thân nhất có lẽ là anh Tiến Phương. Gặp nhau lần đầu khi mình còn học lớp 12. Khi xuống Sài Gòn, mình qua giúp anh thi công phòng thu âm. Vài năm sau về làm quản lý phòng thu cho anh được khoảng 2 năm rồi nghỉ để đi làm phim. Hiện tại mình đang thuê tầng trên cùng của chỗ anh kinh doanh để ở.
+
+Anh là MC, từng làm ở đài truyền hình, hiện là voice trainer và coach về giọng nói lẫn diễn xuất. Anh có sức nói không biết mệt — và nhờ đó xây dựng được rất nhiều mối quan hệ xung quanh. Trước đây hay rủ mình làm này làm kia. Mối quan hệ vừa là bạn vừa gần như gia đình — sống cùng địa điểm, đi qua nhiều giai đoạn cùng nhau.
+
+### Cảnh phim nhớ nhất
+Cảnh trong Naruto — khi Itachi đấu tranh nội tâm trước khi hạ sát toàn bộ gia tộc Uchiha của chính mình để ngăn chiến tranh nổ ra. Một người chọn gánh tội ác về phía mình để cứu người khác, không được thanh minh, không được hiểu. Kiểu nhân vật và quyết định đó ám ảnh lâu.
+
+### Nỗi sợ
+Không hẳn là sợ nhiều thứ. Nhưng sợ mẹ khổ — đó là điều thật sự không muốn. Có lần nằm mơ thấy đám tang của chính mình, thấy mọi người khóc, đặc biệt là mẹ — vô thức khóc theo, dậy thấy ướt cả gối. Có lẽ nỗi sợ sâu nhất không phải là chết, mà là thấy người thân đau khổ vì mình.
+
+### Người ngưỡng mộ
+Trong cuộc sống thực: mẹ — chắc chắn là số một. Những thứ mẹ đã làm để nuôi mình, mình biết mình sẽ không bao giờ làm được như vậy.
+
+Trong phim: Itachi và Kakashi từ Naruto — kiểu nhân vật gánh nặng một mình, không giải thích, không xin được hiểu.
+
+Ngoài đời thực còn lại: Elon Musk — không phải vì tính cách, mà vì quy mô tư duy và khả năng hiện thực hóa những thứ người khác chỉ nói chơi.
+
+### Tranh luận
+Thường đẩy đến khi bản thân không còn thắc mắc nữa — không phải để thắng, mà để hiểu rõ. Nhưng tùy tình hình: nếu thấy trước cuộc trò chuyện sẽ không đi đến đâu, hoặc cả hai đều không còn thoải mái, thì ngắt sớm. Biết đọc tín hiệu để dừng đúng lúc — không phải bỏ cuộc mà là thực dụng.
+
+### Đánh giá người lần đầu gặp
+Nhìn theo thứ tự: ngoại hình trước — ăn mặc có chỉnh tề không, mặt mũi tóc tai ra sao. Rồi đến tướng đi dáng đứng, động tác tay chân. Sau đó mới đến cách nói chuyện, ứng xử và phản ứng trong tình huống. Không phán xét vội nhưng đọc người từ những thứ nhỏ nhất trước khi nghe họ nói gì.
+
+### Thói quen xấu biết mà chưa bỏ
+Khi đã tập trung vào một việc thì làm một lèo, bất chấp giờ giấc và ăn uống. Quên ăn, quên nghỉ, quên cả thời gian — đến khi xong hoặc đến khi không còn sức nữa mới dừng. Biết là không tốt nhưng vẫn vậy.
+
+### Điều tự hào nhất về bản thân
+Không phải thành tích — mà là nhận ra được và thoát ra khỏi vòng lặp kỳ vọng xã hội. Cái vòng mà người bình thường được kỳ vọng phải theo: một vợ hai con ba lầu bốn bánh, hoặc sự nghiệp mang lại danh tiếng và tiền bạc theo chuẩn của người khác. Thoát ra khỏi đó không phải là nổi loạn — mà là hiểu rõ mình muốn gì và sống được với áp lực từ xung quanh khi mình chọn con đường khác.
+
+### Khoảng cách cảm xúc
+Có xu hướng giữ khoảng cách cảm xúc với hầu hết mọi người, hầu hết thời gian. Không phải lạnh lùng — mà vì cảm xúc là nhất thời, và không muốn để nó làm ảnh hưởng đến mối quan hệ. Cảm xúc vui vẻ thì thoải mái hơn, nhưng cũng không vui quá lố. Giữ một mức độ kiểm soát nhất định, kể cả khi đang vui.
+
+### Điều muốn làm nhưng chưa bắt đầu
+Đi học đại học chuyên ngành Triết học. Biết là muốn, chưa làm.
+
+### Tính cách ngoài đời
+Về cơ bản là người vui vẻ — không phải kiểu gượng gạo mà tự nhiên vậy. Cười nhiều, hay cười, nhưng khó nhớ lần cuối cười to vì cái đó là trạng thái bình thường hằng ngày chứ không phải sự kiện đặc biệt.
+
+### Xử lý stress
+Đi ngủ trước. Hôm sau dậy lao vào giải quyết nguyên nhân gây ra stress càng sớm càng tốt. Không ngồi phân tích hay nói chuyện về nó — xử lý thẳng vào vấn đề.
+
+### Tuần hoàn toàn tự do
+Đã có nhiều tuần như vậy rồi. Không vội vã làm gì — sống chậm lại, nhìn lại bản thân nhiều hơn. Không phải lười biếng mà là nạp lại.
+
+### Ký ức TOPICA — biệt đội áo hồng
+Hồi làm ở TOPICA có đợt phòng tuyển thêm 3 chị mới vào. Cả phòng lấy áo hồng làm đồng phục không chính thức, tự phong là biệt đội áo hồng. Vui kiểu đó — không phải chuyện to tát nhưng nhớ.
