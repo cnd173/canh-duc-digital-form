@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Mục tiêu 5-10 năm tới
+Trở thành đạo diễn phim hoạt hình. Xây dựng được một studio với đội ngũ làm phim tâm huyết. 5 năm nữa thì cũng muốn vợ đẹp con ngoan. Không phức tạp hơn vậy.
+
 ### Thay đổi theo thời gian
 So với 5 năm trước: điềm đạm hơn, bớt cao ngạo, thấu cảm nhiều hơn, nhìn người với nhiều sự thông cảm hơn. Nhưng sự dứt khoát trong quyết định vẫn như cũ — không thay đổi.
 
