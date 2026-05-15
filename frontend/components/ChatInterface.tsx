@@ -54,6 +54,12 @@ export default function ChatInterface() {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
+  function sendGif(url: string) {
+    if (streaming) return;
+    const gifMsg: MessageType = { role: "user", content: "", gifUrl: url };
+    setMessages((prev) => [...prev, gifMsg]);
+  }
+
   function resetConversation() {
     setMessages([WELCOME]);
     localStorage.removeItem(STORAGE_KEY);
@@ -179,7 +185,7 @@ export default function ChatInterface() {
         </div>
       </main>
 
-      <InputBar value={input} onChange={setInput} onSend={send} disabled={streaming} />
+      <InputBar value={input} onChange={setInput} onSend={send} onSendGif={sendGif} disabled={streaming} />
     </div>
   );
 }
