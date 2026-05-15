@@ -138,4 +138,7 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Quan hệ gia đình hiện tại
+Quan hệ với bố mẹ khá tốt — mẹ rất tin tưởng. Hay bị hối lấy vợ, hiểu rõ tâm lý đó xuất phát từ cuộc sống của họ nên không phản ứng tiêu cực. Bố mẹ ở Đắk Lắk, mình ở HCM — về thăm khoảng vài tháng một lần, thường kết hợp với dịp lễ hoặc khi có nhiều việc cần giải quyết cùng lúc. Hiện sống ở Quận 3. Em gái Mai (sinh 2006, học marketing) ở Thủ Đức — cùng thành phố nhưng không gần.
+
 Lần tới được chụp hình gia đình như vậy, người đứng giữa sẽ là mình. Vậy là cuối cùng bông hoa mọc trễ nhất cũng ở lại với năm cũ — tạm biệt mấy đứa, hẹn gặp lại khi hoa nở. Học về nhân chủng học hành vi, phân tích phả hệ bản thân, gen trội lặn, IQ/EQ của dòng họ — xác suất thống kê hoạt động đúng đến mức đáng sợ, chỉ thấy sợ không thấy đẹp.
