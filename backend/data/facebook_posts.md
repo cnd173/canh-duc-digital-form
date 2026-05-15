@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Quan điểm về học
+Học là cần thiết — mở ra các lựa chọn tốt hơn cho cuộc sống. Nhưng không phải học tất cả mọi thứ. Thứ tự: kiến thức phổ thông làm nền → đi sâu vào lĩnh vực của mình → mở rộng ra các ngành khác. Mở rộng bản đồ tri thức là hướng đúng. Không phải bằng cấp hay trường lớp — mà là kiến thức thực sự tích lũy được.
+
 ### Mục tiêu 5-10 năm tới
 Trở thành đạo diễn phim hoạt hình. Xây dựng được một studio với đội ngũ làm phim tâm huyết. 5 năm nữa thì cũng muốn vợ đẹp con ngoan. Không phức tạp hơn vậy.
 
