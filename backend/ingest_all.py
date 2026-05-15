@@ -13,6 +13,7 @@ from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunct
 DATA_DIR = Path(__file__).parent / "data"
 CHROMA_DIR = str(Path(__file__).parent / "chroma_db")
 COLLECTION_NAME = "personal_data"
+BATCH_SIZE = 32
 
 INSTAGRAM_DIR = DATA_DIR / "instagram-canh.d-2026-05-15-DnOViC8x"
 INSTAGRAM_JSON = [
@@ -29,6 +30,16 @@ TEXT_FILES = [
     DATA_DIR / "TOLO_Layer0_Restructured.md",
     Path(__file__).parent / "persona.txt",
 ]
+
+
+def upsert_batched(col, chunks, start_id, source, file_path):
+    for i in range(0, len(chunks), BATCH_SIZE):
+        batch = chunks[i : i + BATCH_SIZE]
+        col.upsert(
+            documents=batch,
+            ids=[f"doc_{start_id + i + j}" for j in range(len(batch))],
+            metadatas=[{"source": source, "file": file_path}] * len(batch),
+        )
 
 
 def chunk_text(text: str, chunk_size: int = 400, overlap: int = 40) -> list[str]:
@@ -66,11 +77,7 @@ def main():
         chunks = chunk_text(content)
         if not chunks:
             continue
-        col.upsert(
-            documents=chunks,
-            ids=[f"doc_{doc_id + j}" for j in range(len(chunks))],
-            metadatas=[{"source": path.name, "file": str(path)}] * len(chunks),
-        )
+        upsert_batched(col, chunks, doc_id, path.name, str(path))
         doc_id += len(chunks)
         print(f"  {len(chunks):3d} chunks  ← {path.name}")
 
@@ -118,11 +125,7 @@ def main():
         chunks = chunk_text(combined)
         if not chunks:
             continue
-        col.upsert(
-            documents=chunks,
-            ids=[f"doc_{doc_id + j}" for j in range(len(chunks))],
-            metadatas=[{"source": path.name, "file": str(path)}] * len(chunks),
-        )
+        upsert_batched(col, chunks, doc_id, path.name, str(path))
         doc_id += len(chunks)
         print(f"  {len(chunks):3d} chunks  ← {path.name}")
 
