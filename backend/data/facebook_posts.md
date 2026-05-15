@@ -81,6 +81,11 @@ Cần đo lường trên 30+ người thực tế, dùng AI tạo fake profile �
 ### Về tiền bạc
 Tiền chỉ là xăng — không phải đích đến. Nó giúp đạt được các mục tiêu khác trong cuộc sống, không hơn. Vì vậy mình không hay chạy theo tiền hoặc sa đà vào các việc chỉ để kiếm tiền. Mình nhận thức rõ về bức tranh tài chính của bản thân, không ảo tưởng, và sẵn sàng làm công việc chân tay khổ sở nếu có biến cố — không phải vì thích mà vì thực tế.
 
+### Về tình bạn
+Không có nhiều bạn, và không xem đó là vấn đề. Một người bạn tốt không cần phải làm gì nhiều — không hại mình, thỉnh thoảng giúp được nhau, cùng chơi cùng nói chuyện được là đủ. Tiêu chuẩn thực tế, không lãng mạn hóa.
+
+Tự tạo khoảng cách với người không hợp tính hoặc không phù hợp với cách mình sống — không cần giải thích. Với người lợi dụng, phản bội hoặc tệ hơn thì cắt luôn, không giữ lại.
+
 ### Về sự rộng lượng và tự nhận thức
 Hồi nhỏ hay thiếu cơm, lớn lên đi làm thì mua đồ ăn dư ra — nghĩ là mình rộng rãi, nhưng thực ra đang "trả thù quá khứ." Trong một tình huống với tài xế Grab ẩu, mình cũng kịp chuyển từ tức giận sang cảm thông và tip cho họ — cảm giác mình rộng lượng. Nhưng nhìn lại thì thấy rằng sự rộng lượng thực sự là thứ mình nghĩ mình có mà thực ra chưa có. Muộn nhận ra còn hơn không.
 
