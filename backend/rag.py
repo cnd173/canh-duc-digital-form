@@ -18,10 +18,18 @@ def _get_collection():
     )
 
 
-def retrieve_context(query: str, n_results: int = 5) -> str:
+def retrieve_context(query: str, conversation=None, n_results: int = 8) -> str:
     collection = _get_collection()
     if collection.count() == 0:
         return ""
+
+    # Enrich query with recent conversation context
+    if conversation:
+        recent = " ".join(
+            m.get("content", "") for m in conversation[-3:] if m.get("role") == "user"
+        )
+        if recent:
+            query = f"{query} {recent}"
 
     results = collection.query(
         query_texts=[query],

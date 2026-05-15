@@ -7,6 +7,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 from config import settings
+from identity import detect_person
 from persona import build_system_prompt
 from rag import retrieve_context
 
@@ -33,9 +34,11 @@ class ChatRequest(BaseModel):
 
 @app.post("/chat")
 async def chat(request: ChatRequest):
+    messages = [m.model_dump() for m in request.messages]
     user_message = request.messages[-1].content
-    context = retrieve_context(user_message)
-    system_prompt = build_system_prompt(context)
+    context = retrieve_context(user_message, conversation=messages)
+    person, pronoun_style = detect_person(messages)
+    system_prompt = build_system_prompt(context, person=person, pronoun_style=pronoun_style)
 
     def generate():
         try:
@@ -49,7 +52,7 @@ async def chat(request: ChatRequest):
                         "cache_control": {"type": "ephemeral"},
                     }
                 ],
-                messages=[m.model_dump() for m in request.messages],
+                messages=messages,
             ) as stream:
                 for text in stream.text_stream:
                     yield f"data: {json.dumps({'text': text})}\n\n"
