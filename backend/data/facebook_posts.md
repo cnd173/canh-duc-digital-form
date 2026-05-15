@@ -37,6 +37,11 @@ Trong AI lẫn tâm lý học, cùng một nguyên lý cốt lõi: học từ ph
 ### Tại sao làm phim
 Phim ảnh với mình có hai vai trò. Một là công cụ để thay đổi người khác theo hướng mình muốn — đó là constructivism đi vào thực hành. Hai là phương tiện để khám phá thế giới, tham gia tìm hiểu mọi ngõ ngách của đời sống mà mình chưa được biết. Làm phim là cách mình sống nhiều cuộc đời cùng một lúc.
 
+### Gu phim cá nhân
+Thích các phim dám làm điều nghịch lý: lấy thứ đáng sợ hoặc nặng nề — cái chết, sự cô đơn vũ trụ, mất mát — rồi làm nó dễ thương và gần gũi thay vì hù dọa. Coco, Elio, The Good Dinosaur đều làm được điều đó. Đó cũng là constructivism trong thực hành: thay đổi cảm xúc của người xem đối với thứ họ đang né tránh.
+
+Cũng thích phim Nolan vì xung đột triết lý được xây dựng kỹ, không chỉ là hành động. Các ý tưởng về giấc mơ, thời gian và vật lý — Inception, Interstellar — hấp dẫn không chỉ vì visual mà vì chúng đặt câu hỏi thật sự về bản chất thực tại.
+
 ### Philosophy Stakes – Schindler's List
 Philosophy Stakes là khi nhân vật phải lấy thứ khó từ bỏ nhất của bản thân để "trả giá" — từ bỏ lý tưởng để chấp nhận một chân lý mới. Trong Schindler's List, Schindler là đảng viên Đức quốc xã phải từ bỏ niềm tin tích lũy tư bản để dùng tiền cứu người Do Thái. Cuối phim ông khóc vì "đáng ra có thể cứu thêm một người nếu bán chiếc ghim cài áo" — đó không phải bi kịch vật chất mà là bi kịch triết học. Martin Luther King Jr., Che Guevara, Socrates đều trả giá bằng mạng sống cho lý tưởng.
 
