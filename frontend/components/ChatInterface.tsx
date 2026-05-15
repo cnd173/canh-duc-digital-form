@@ -54,9 +54,10 @@ export default function ChatInterface() {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  function sendGif(url: string) {
+  function sendGif(url: string, description: string) {
     if (streaming) return;
-    const gifMsg: MessageType = { role: "user", content: "", gifUrl: url };
+    // content is sent to AI so it knows what GIF was shared; gifUrl renders the image in UI
+    const gifMsg: MessageType = { role: "user", content: `[Gửi GIF: ${description}]`, gifUrl: url };
     setMessages((prev) => [...prev, gifMsg]);
   }
 

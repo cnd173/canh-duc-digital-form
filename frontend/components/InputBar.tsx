@@ -7,7 +7,7 @@ type Props = {
   value: string;
   onChange: (v: string) => void;
   onSend: () => void;
-  onSendGif: (url: string) => void;
+  onSendGif: (url: string, desc: string) => void;
   disabled: boolean;
 };
 
@@ -39,7 +39,7 @@ export default function InputBar({ value, onChange, onSend, onSendGif, disabled 
           <div className="fixed inset-0 z-10" onClick={() => setShowGifs(false)} />
           <div className="relative z-20">
             <GifPicker
-              onSelect={(url) => { onSendGif(url); setShowGifs(false); }}
+              onSelect={(url, desc) => { onSendGif(url, desc); }}
               onClose={() => setShowGifs(false)}
             />
           </div>

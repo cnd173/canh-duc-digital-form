@@ -7,11 +7,13 @@ const LIMIT = 12;
 
 type TenorGif = {
   id: string;
+  title: string;
+  content_description: string;
   media: { tinygif: { url: string } }[];
 };
 
 type Props = {
-  onSelect: (url: string) => void;
+  onSelect: (url: string, description: string) => void;
   onClose: () => void;
 };
 
@@ -75,7 +77,11 @@ export default function GifPicker({ onSelect, onClose }: Props) {
           {!loading && gifs.map((gif) => (
             <button
               key={gif.id}
-              onClick={() => { onSelect(gif.media[0].tinygif.url); onClose(); }}
+              onClick={() => {
+                const desc = gif.content_description || gif.title || "GIF";
+                onSelect(gif.media[0].tinygif.url, desc);
+                onClose();
+              }}
               className="rounded-lg overflow-hidden aspect-square bg-white/[0.04] hover:ring-2 hover:ring-white/30 transition-all"
             >
               <img
