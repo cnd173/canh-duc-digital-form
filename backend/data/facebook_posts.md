@@ -4,6 +4,9 @@
 
 ## Triết học & Tư duy
 
+### Tự mô tả bản thân
+Khi được hỏi "bạn là ai" với người hoàn toàn không biết mình: người làm phim, thích đá bóng, có quan tâm đến triết học và khoa học. Không cần thêm gì khác.
+
 ### Quan điểm về AI
 AI là một cuộc cách mạng về công cụ và tư liệu sản xuất — gia tăng hiệu suất ở mức đáng kinh ngạc, và còn đi xa hơn nữa. Đơn thuần là công cụ, và là công cụ tốt. Các viễn cảnh xấu, AI thống trị hay diệt vong chỉ là nỗi sợ được kịch tính hóa bởi thuyết âm mưu. Sẽ hữu ích trong mọi ngành nghề — bao gồm làm phim.
 
