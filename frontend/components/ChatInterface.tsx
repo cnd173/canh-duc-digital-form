@@ -17,22 +17,18 @@ export default function ChatInterface() {
 
   const messages: MessageType[] = current?.messages ?? [];
 
-  function setMessages(updater: MessageType[] | ((prev: MessageType[]) => MessageType[])) {
-    const next = typeof updater === "function" ? updater(messages) : updater;
-    // Skip saving while a message is still streaming
-    const hasStreaming = next.some((m) => m.streaming);
-    if (!hasStreaming) updateMessages(next);
-    // Force re-render by updating via hook
-    updateMessages(next);
-  }
-
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
   function sendGif(url: string, desc: string) {
     if (streaming) return;
-    const gifMsg: MessageType = { role: "user", content: `[Gửi GIF: ${desc}]`, gifUrl: url };
+    const gifMsg: MessageType = {
+      role: "user",
+      content: `[Gửi GIF: ${desc}]`,
+      gifUrl: url,
+      timestamp: Date.now(),
+    };
     updateMessages([...messages, gifMsg]);
   }
 
@@ -40,15 +36,16 @@ export default function ChatInterface() {
     const text = input.trim();
     if (!text || streaming) return;
 
-    const userMsg: MessageType = { role: "user", content: text };
+    const userMsg: MessageType = { role: "user", content: text, timestamp: Date.now() };
     const history = [...messages, userMsg];
 
     updateMessages(history);
     setInput("");
     setStreaming(true);
 
-    const assistantMsg: MessageType = { role: "assistant", content: "", streaming: true };
-    updateMessages([...history, assistantMsg]);
+    // Typing indicator: empty content + streaming=true triggers the dots
+    const typingMsg: MessageType = { role: "assistant", content: "", streaming: true };
+    updateMessages([...history, typingMsg]);
 
     try {
       const res = await fetch("/api/chat", {
@@ -66,7 +63,6 @@ export default function ChatInterface() {
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let accumulated = "";
-      let latest = [...history, { role: "assistant" as const, content: "", streaming: true }];
 
       while (true) {
         const { done, value } = await reader.read();
@@ -84,18 +80,17 @@ export default function ChatInterface() {
             } else {
               accumulated += parsed.text ?? "";
             }
-            latest = [
+            updateMessages([
               ...history,
               { role: "assistant" as const, content: accumulated, streaming: true },
-            ];
-            updateMessages(latest);
+            ]);
           } catch {}
         }
       }
 
       updateMessages([
         ...history,
-        { role: "assistant" as const, content: accumulated, streaming: false },
+        { role: "assistant" as const, content: accumulated, streaming: false, timestamp: Date.now() },
       ]);
     } catch {
       updateMessages([
@@ -104,6 +99,7 @@ export default function ChatInterface() {
           role: "assistant" as const,
           content: "Có lỗi xảy ra rồi. Backend đang chạy chưa vậy?",
           streaming: false,
+          timestamp: Date.now(),
         },
       ]);
     } finally {
@@ -128,7 +124,6 @@ export default function ChatInterface() {
 
       {/* Header */}
       <header className="border-b border-white/[0.07] bg-black/40 backdrop-blur-2xl px-6 py-4 flex items-center gap-4">
-        {/* History button */}
         <button
           onClick={() => setShowSidebar(true)}
           title="Lịch sử trò chuyện"
