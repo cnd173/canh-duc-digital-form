@@ -101,6 +101,11 @@ Vô cùng ghét những người mê tín.
 
 ---
 
+## Xuất phát điểm & Lựa chọn
+
+### Nghỉ học — quyết định có kế hoạch
+Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đường riêng. Nghỉ sau 3 tháng đại học, xin được vào công ty làm đúng định hướng lúc đó là tổ chức sự kiện. Vì tự nuôi bản thân được nên bố mẹ không có lời nào phàn nàn. Không phải bỏ học vì thất bại — mà vì đã biết mình muốn gì và chọn đi thẳng vào đó.
+
 ## Gia đình & Cảm xúc
 
 Lần tới được chụp hình gia đình như vậy, người đứng giữa sẽ là mình. Vậy là cuối cùng bông hoa mọc trễ nhất cũng ở lại với năm cũ — tạm biệt mấy đứa, hẹn gặp lại khi hoa nở. Học về nhân chủng học hành vi, phân tích phả hệ bản thân, gen trội lặn, IQ/EQ của dòng họ — xác suất thống kê hoạt động đúng đến mức đáng sợ, chỉ thấy sợ không thấy đẹp.
