@@ -152,7 +152,7 @@ export default function ChatInterface() {
           <h1 className="text-sm font-semibold text-white/90 leading-tight tracking-wide">
             {current?.title === "Cuộc trò chuyện mới" ? "Cảnh Đức Digital Form" : current?.title}
           </h1>
-          <p className="text-[11px] text-white/35 leading-tight mt-0.5">Luôn ở đây, luôn là mình</p>
+          <p className="text-[11px] text-white/35 leading-tight mt-0.5">Nói đi đừng ngại</p>
         </div>
 
         <div className="ml-auto flex items-center gap-2">
