@@ -15,10 +15,11 @@ export default function Message({ message }: { message: MessageType }) {
     <div className={`flex gap-3 animate-fade-up ${isUser ? "flex-row-reverse" : "flex-row"}`}>
       {!isUser && (
         <div className="relative w-7 h-7 flex-shrink-0 mt-1">
-          <div className="absolute inset-0 rounded-full bg-white/15 blur-md" />
-          <div className="relative w-7 h-7 rounded-full border border-white/15 bg-gradient-to-br from-white/10 to-transparent flex items-center justify-center">
-            <div className="w-2 h-2 rounded-full bg-white/90 shadow-[0_0_8px_3px_rgba(255,255,255,0.5)]" />
-          </div>
+          <img
+            src="/avatar.jpg"
+            alt="Cảnh Đức"
+            className="w-7 h-7 rounded-full object-cover border border-white/15"
+          />
         </div>
       )}
 
