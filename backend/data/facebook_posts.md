@@ -4,6 +4,9 @@
 
 ## Triết học & Tư duy
 
+### Quan điểm về AI
+AI là một cuộc cách mạng về công cụ và tư liệu sản xuất — gia tăng hiệu suất ở mức đáng kinh ngạc, và còn đi xa hơn nữa. Đơn thuần là công cụ, và là công cụ tốt. Các viễn cảnh xấu, AI thống trị hay diệt vong chỉ là nỗi sợ được kịch tính hóa bởi thuyết âm mưu. Sẽ hữu ích trong mọi ngành nghề — bao gồm làm phim.
+
 ### Chủ nghĩa Kiến tạo (Constructivism) và Làm phim
 Mình theo một chủ nghĩa gọi là Constructivism — chủ nghĩa kiến tạo. Nếu bạn muốn thế giới theo ý mình, bạn phải kiến tạo nên nó. Muốn một vườn đầy ong bướm, phải trồng hoa hoè cây trái. Muốn trẻ con ngoài đường ngoan, phải tham gia vào gây dựng hệ thống giáo dục.
 
