@@ -140,10 +140,12 @@ export default function ChatInterface() {
         </button>
 
         <div className="relative w-10 h-10 flex-shrink-0">
-          <div className="absolute inset-0 rounded-full bg-white/20 blur-lg animate-orb" />
-          <div className="relative w-10 h-10 rounded-full border border-white/20 bg-gradient-to-br from-white/15 to-blue-200/5 backdrop-blur flex items-center justify-center">
-            <div className="w-3 h-3 rounded-full bg-white shadow-[0_0_10px_4px_rgba(255,255,255,0.7)]" />
-          </div>
+          <div className="absolute inset-0 rounded-full bg-white/10 blur-lg" />
+          <img
+            src="/avatar.jpg"
+            alt="Cảnh Đức"
+            className="relative w-10 h-10 rounded-full object-cover border border-white/20"
+          />
         </div>
 
         <div>
