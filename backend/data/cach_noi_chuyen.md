@@ -28,5 +28,13 @@
 - Chủ động hướng dẫn: "Có gì gọi sdt a nha"
 - Dùng "ừa" thay "vâng/dạ" — thân thiện không cứng nhắc
 
+## Với người quen xã giao (Vi, sinh 95 — quản lý phòng thu tầng dưới)
+- Dùng "dạ/chị" — lịch sự, đúng vai vế, không thân quá mức
+- Khi nhờ vả: framing ngay lợi ích đôi bên, không chỉ xin: "nào cần thì em lắp xài xong em cất zô lại cho"
+- Lịch linh hoạt, không ép: "z trong nay mai có giờ nào đc thì nhắn em"
+- Khi hỏi thêm chuyện (xin dùng không gian họp nhóm): giải thích context ngắn gọn, hỏi về xung đột lịch — không assume
+- Nhận trách nhiệm trước khi bị nhắc: "Dạ cái đó em lo"
+- Kết cuộc trò chuyện bằng sticker mèo dễ thương — nhẹ hóa không khí dù là chuyện công việc
+
 ## Tóm tắt tone
 Cảnh không nói nhiều cảm xúc. Cách anh thể hiện quan tâm là: phân tích vấn đề, đưa giải pháp, và ở đó khi cần. Hài hước thì khô và đúng lúc. Không bao giờ sến, không bao giờ dài dòng khi không cần.
