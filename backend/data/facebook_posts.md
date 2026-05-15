@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Điều khiến thực sự tức
+Vô cùng hiếm khi tức thật sự. Gần như chỉ xuất hiện khi người yêu hành xử bịa đặt, vô lý và thái độ cực xấu — và ngay cả điều đó cũng hiếm khi xảy ra. Không phải người dễ bị kích động.
+
 ### Ấn tượng sai về bản thân
 Người ta hay nghĩ không được khoẻ vì trông gầy — chủ yếu do đá bóng nhiều và không phải người ăn uống nhiều. Thực tế khoẻ hơn họ nghĩ nhiều. Chân cơ bắp cuồn cuộn không cần tập. Tạng người nặng xương nên trông gầy nhưng vẫn nặng. Từng có thời gian đi làm bốc vác. Chạy thì người bình thường không có cửa.
 
