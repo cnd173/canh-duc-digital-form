@@ -3,19 +3,19 @@ from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunct
 
 from config import settings
 
-_ef = None
+_collection = None
 
 
 def _get_collection():
-    global _ef
-    if _ef is None:
-        _ef = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
-    # Fresh client each call so server always sees latest ingested data
-    client = chromadb.PersistentClient(path=settings.chroma_persist_dir)
-    return client.get_or_create_collection(
-        name=settings.collection_name,
-        embedding_function=_ef,
-    )
+    global _collection
+    if _collection is None:
+        ef = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
+        client = chromadb.PersistentClient(path=settings.chroma_persist_dir)
+        _collection = client.get_or_create_collection(
+            name=settings.collection_name,
+            embedding_function=ef,
+        )
+    return _collection
 
 
 def retrieve_context(query: str, conversation=None, n_results: int = 8) -> str:
