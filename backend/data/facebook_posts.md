@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Lời khuyên cho người trẻ
+Học và trải nghiệm. Làm việc hăng say và tìm hiểu rõ bản thân. Đừng chạy theo tiền bạc hay những thứ chỉ phục vụ vẻ bề ngoài hoặc ham muốn nhất thời. Nhìn quãng đời mình như một bản đồ lớn — không phải từng bước nhỏ. Và quan trọng nhất: thiết kế cho mình một môi trường phù hợp, đừng trông chờ vào ý chí tự thân.
+
 ### Quan điểm về xã hội Việt Nam
 Điều cần thay đổi nhất: hệ thống chính trị. Cụ thể: cần xây dựng môi trường có chỗ cho người thông minh, tài năng và đủ phẩm chất. Cần công khai minh bạch, cơ chế giám sát và thực thi tách biệt, không chồng chéo lợi ích. Không được để tồn tại các điều kiện tạo ra tham nhũng và lãng phí có hệ thống. Vấn đề không phải cá nhân xấu — mà là hệ thống tạo ra điều kiện cho cái xấu.
 
