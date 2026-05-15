@@ -3,10 +3,11 @@
   "configurations": [
     {
       "name": "frontend",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeExecutable": "/bin/zsh",
+      "runtimeArgs": ["-c", "export PATH=/Users/singularity/.nvm/versions/node/v24.15.0/bin:$PATH && npm run dev"],
       "port": 3000,
-      "autoPort": false
+      "autoPort": false,
+      "cwd": "/Users/singularity/Projects/cnd/frontend"
     }
   ]
 }
