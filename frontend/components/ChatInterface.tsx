@@ -6,7 +6,7 @@ import Message, { MessageType } from "./Message";
 
 const WELCOME: MessageType = {
   role: "assistant",
-  content: "Chào! Mình là phiên bản số của Cảnh Đức. Hỏi mình bất cứ thứ gì — suy nghĩ, quan điểm, trải nghiệm, hoặc chỉ đơn giản là hú hồn mình một cái.",
+  content: "Chào! Mình là phiên bản số của Cảnh Đức. Mình đang nói chuyện với ai vậy?",
 };
 
 export default function ChatInterface() {
