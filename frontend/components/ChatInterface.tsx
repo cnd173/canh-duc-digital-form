@@ -92,19 +92,25 @@ export default function ChatInterface() {
   }
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="relative z-10 flex flex-col h-screen">
       {/* Header */}
-      <header className="border-b border-[var(--border)] bg-[var(--surface)] px-6 py-4 flex items-center gap-4">
-        <div className="w-10 h-10 rounded-full bg-[var(--accent-dim)] border-2 border-[var(--accent)] flex items-center justify-center text-sm font-bold text-[var(--accent)]">
-          ME
+      <header className="border-b border-white/[0.07] bg-black/40 backdrop-blur-2xl px-6 py-4 flex items-center gap-4">
+        {/* White hole orb */}
+        <div className="relative w-10 h-10 flex-shrink-0">
+          <div className="absolute inset-0 rounded-full bg-white/20 blur-lg animate-orb" />
+          <div className="relative w-10 h-10 rounded-full border border-white/20 bg-gradient-to-br from-white/15 to-blue-200/5 backdrop-blur flex items-center justify-center">
+            <div className="w-3 h-3 rounded-full bg-white shadow-[0_0_10px_4px_rgba(255,255,255,0.7)]" />
+          </div>
         </div>
+
         <div>
-          <h1 className="text-sm font-semibold text-white leading-tight">Cảnh Đức Digital Form</h1>
-          <p className="text-xs text-[#666] leading-tight">Luôn ở đây, luôn là mình</p>
+          <h1 className="text-sm font-semibold text-white/90 leading-tight tracking-wide">Cảnh Đức Digital Form</h1>
+          <p className="text-[11px] text-white/35 leading-tight mt-0.5">Luôn ở đây, luôn là mình</p>
         </div>
-        <div className="ml-auto flex items-center gap-1.5">
-          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-          <span className="text-xs text-[#666]">online</span>
+
+        <div className="ml-auto flex items-center gap-2">
+          <span className="w-1.5 h-1.5 rounded-full bg-white/80 shadow-[0_0_6px_2px_rgba(255,255,255,0.6)] animate-pulse" />
+          <span className="text-[11px] text-white/35">online</span>
         </div>
       </header>
 

@@ -3,22 +3,103 @@
 @tailwind utilities;
 
 :root {
-  --bg: #0c0c0e;
-  --surface: #141416;
-  --border: #222226;
-  --accent: #7c6aff;
-  --accent-dim: #3d3470;
+  --bg: #020209;
+  --surface: rgba(255, 255, 255, 0.04);
+  --border: rgba(255, 255, 255, 0.09);
+  --border-bright: rgba(200, 225, 255, 0.25);
+  --accent: #c8e6ff;
+  --text: #ddeeff;
+  --text-dim: rgba(180, 210, 240, 0.45);
 }
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
   background: var(--bg);
-  color: #e8e8ee;
+  color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
-::-webkit-scrollbar { width: 6px; }
+/* White hole central glow — breathes in and out */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 55% 45% at 50% 42%,
+      rgba(255, 255, 255, 0.09) 0%,
+      rgba(180, 215, 255, 0.11) 18%,
+      rgba(100, 160, 255, 0.06) 38%,
+      rgba(40, 80, 200, 0.03) 58%,
+      transparent 75%
+    );
+  animation: wh-breathe 7s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Slow-rotating light rays */
+body::after {
+  content: '';
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    from 0deg at 50% 46%,
+    transparent 0deg,
+    rgba(210, 235, 255, 0.018) 8deg,
+    transparent 18deg,
+    rgba(210, 235, 255, 0.022) 32deg,
+    transparent 48deg,
+    rgba(210, 235, 255, 0.014) 65deg,
+    transparent 88deg,
+    rgba(210, 235, 255, 0.02) 115deg,
+    transparent 148deg,
+    rgba(210, 235, 255, 0.016) 190deg,
+    transparent 230deg,
+    rgba(210, 235, 255, 0.022) 268deg,
+    transparent 310deg,
+    rgba(210, 235, 255, 0.018) 345deg,
+    transparent 360deg
+  );
+  animation: wh-rotate 90s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes wh-breathe {
+  0%, 100% { opacity: 0.65; transform: scale(1); }
+  50%       { opacity: 1;    transform: scale(1.12); }
+}
+
+@keyframes wh-rotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes orb-pulse {
+  0%, 100% { box-shadow: 0 0 16px 4px rgba(255,255,255,0.25), 0 0 40px 8px rgba(180,220,255,0.1); }
+  50%       { box-shadow: 0 0 28px 8px rgba(255,255,255,0.45), 0 0 70px 16px rgba(180,220,255,0.18); }
+}
+
+.animate-blink    { animation: blink 1s step-end infinite; }
+.animate-fade-up  { animation: fade-up 0.35s ease-out; }
+.animate-orb      { animation: orb-pulse 4s ease-in-out infinite; }
+
+::-webkit-scrollbar       { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 2px; }
