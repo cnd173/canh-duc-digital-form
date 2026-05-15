@@ -7,6 +7,7 @@ import Message, { MessageType } from "./Message";
 const WELCOME: MessageType = {
   role: "assistant",
   content: "Chào! Mình là phiên bản số của Cảnh Đức. Mình đang nói chuyện với ai vậy?",
+  isWelcome: true,
 };
 
 export default function ChatInterface() {
@@ -39,7 +40,7 @@ export default function ChatInterface() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           messages: history
-            .filter((m) => m.role !== "assistant" || m.content)
+            .filter((m) => !m.isWelcome && (m.role !== "assistant" || m.content))
             .map((m) => ({ role: m.role, content: m.content })),
         }),
       });

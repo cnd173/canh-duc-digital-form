@@ -4,6 +4,7 @@ export type MessageType = {
   role: "user" | "assistant";
   content: string;
   streaming?: boolean;
+  isWelcome?: boolean;
 };
 
 export default function Message({ message }: { message: MessageType }) {
