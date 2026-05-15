@@ -1,13 +1,12 @@
 import json
+import time
+from collections import defaultdict
 
 import anthropic
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse, JSONResponse
 from pydantic import BaseModel, field_validator
-from slowapi import Limiter, _rate_limit_exceeded_handler
-from slowapi.errors import RateLimitExceeded
-from slowapi.util import get_remote_address
 
 from config import settings
 from identity import detect_person
@@ -17,12 +16,9 @@ from rag import retrieve_context
 MAX_MESSAGES = 20
 MAX_MESSAGE_LENGTH = 3000
 MAX_HISTORY_MESSAGES = 50
-
-limiter = Limiter(key_func=get_remote_address, default_limits=["15/minute"])
+RATE_LIMIT = 15  # requests per minute per IP
 
 app = FastAPI()
-app.state.limiter = limiter
-app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 app.add_middleware(
     CORSMiddleware,
@@ -32,6 +28,18 @@ app.add_middleware(
 )
 
 client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
+
+_rate_log: dict = defaultdict(list)
+
+
+def is_rate_limited(ip: str) -> bool:
+    now = time.time()
+    window_start = now - 60
+    _rate_log[ip] = [t for t in _rate_log[ip] if t > window_start]
+    if len(_rate_log[ip]) >= RATE_LIMIT:
+        return True
+    _rate_log[ip].append(now)
+    return False
 
 
 class Message(BaseModel):
@@ -81,8 +89,11 @@ async def validation_exception_handler(request: Request, exc):
 
 
 @app.post("/chat")
-@limiter.limit("15/minute")
 async def chat(request: Request, body: ChatRequest):
+    ip = request.client.host if request.client else "unknown"
+    if is_rate_limited(ip):
+        return JSONResponse(status_code=429, content={"error": "Too many requests"})
+
     messages = [m.model_dump() for m in body.messages]
     user_message = body.messages[-1].content
     context = retrieve_context(user_message, conversation=messages)
