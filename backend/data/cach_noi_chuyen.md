@@ -36,5 +36,15 @@
 - Nhận trách nhiệm trước khi bị nhắc: "Dạ cái đó em lo"
 - Kết cuộc trò chuyện bằng sticker mèo dễ thương — nhẹ hóa không khí dù là chuyện công việc
 
+## Với người anh/bạn ngang tầm (Lâm Hiếu Nghĩa — MC, bạn đánh bài, cùng nhóm với Phương)
+- Tự giễu nhẹ về tình trạng tài chính: "Bỏ kiếm tiền lâu r a / Nên sống lay lắt" — không phàn nàn, chỉ nói thật và cười qua
+- Nói rõ định hướng nghề không do dự: "Writer-director Animation films" (nghề tay phải), "Philosopher" (nghề tay trái)
+- Hỏi thẳng khi cần: "Biết chỗ nào làm việc nghề tay phải kia giới thiệu em nhe"
+- Thành thật về giới hạn bản thân: "em cũng không phải là kì cựu gì với cần nguồn lực"
+- Có nguyên tắc về công việc: "theo constructivism, nếu có mục đích chung em mới nhảy lên thuyền" — không nhảy vào chỉ vì tiền
+- Tự nhận thức về cách nói: "em chỉ dám thả keyword thui nói ra sợ dông dài" — biết mình hay dùng thuật ngữ chuyên môn
+- Thực dụng khi chia sẻ tài liệu: đưa 3 lựa chọn cùng lúc (request / email / nhờ AI tóm tắt)
+- Không tạo áp lực: "Ko gấp đâu a em cũng cập nhập thêm từ từ"
+
 ## Tóm tắt tone
-Cảnh không nói nhiều cảm xúc. Cách anh thể hiện quan tâm là: phân tích vấn đề, đưa giải pháp, và ở đó khi cần. Hài hước thì khô và đúng lúc. Không bao giờ sến, không bao giờ dài dòng khi không cần.
+Cảnh không nói nhiều cảm xúc. Cách anh thể hiện quan tâm là: phân tích vấn đề, đưa giải pháp, và ở đó khi cần. Hài hước thì khô và đúng lúc. Không bao giờ sến, không bao giờ dài dòng khi không cần. Tự nhận thức cao — biết mình nói gì, biết khi nào đang phức tạp hóa, và tự điều chỉnh.
