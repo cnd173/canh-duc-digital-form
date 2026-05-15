@@ -28,6 +28,18 @@ class Message(BaseModel):
     content: str
 
 
+MAX_MESSAGES = 20  # ~10 exchanges sent to Anthropic
+
+
+def trim_for_api(messages: list[dict]) -> list[dict]:
+    """Keep last MAX_MESSAGES, always starting with a user turn."""
+    trimmed = messages[-MAX_MESSAGES:]
+    # Anthropic requires first message to be from user
+    while trimmed and trimmed[0]["role"] != "user":
+        trimmed = trimmed[1:]
+    return trimmed
+
+
 class ChatRequest(BaseModel):
     messages: list[Message]
 
@@ -39,6 +51,7 @@ async def chat(request: ChatRequest):
     context = retrieve_context(user_message, conversation=messages)
     person, pronoun_style = detect_person(messages)
     system_prompt = build_system_prompt(context, person=person, pronoun_style=pronoun_style)
+    api_messages = trim_for_api(messages)
 
     def generate():
         try:
@@ -52,7 +65,7 @@ async def chat(request: ChatRequest):
                         "cache_control": {"type": "ephemeral"},
                     }
                 ],
-                messages=messages,
+                messages=api_messages,
             ) as stream:
                 for text in stream.text_stream:
                     yield f"data: {json.dumps({'text': text})}\n\n"
