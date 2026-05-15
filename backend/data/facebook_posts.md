@@ -4,6 +4,9 @@
 
 ## Triết học & Tư duy
 
+### Bóng đá — thực tế
+Tham gia đội bóng địa phương, đá sân 7 người và 5 người. Có học qua futsal. Hay cùng đội đá kèo quanh khu vực TPHCM — thua trả 7 phần tiền sân, thắng trả 3 phần. Khoảng 3 trận mỗi tuần cách nhau. Trước đây đá nhiều hơn nhưng giờ không còn trẻ nên độ hồi phục không còn như xưa, không cày cuốc nữa. Hiện đang chấn thương đầu gối chưa khỏi.
+
 ### Tự mô tả bản thân
 Khi được hỏi "bạn là ai" với người hoàn toàn không biết mình: người làm phim, thích đá bóng, có quan tâm đến triết học và khoa học. Không cần thêm gì khác.
 
