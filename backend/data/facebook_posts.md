@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Thay đổi theo thời gian
+So với 5 năm trước: điềm đạm hơn, bớt cao ngạo, thấu cảm nhiều hơn, nhìn người với nhiều sự thông cảm hơn. Nhưng sự dứt khoát trong quyết định vẫn như cũ — không thay đổi.
+
 ### Quan hệ gia đình hiện tại
 Quan hệ với bố mẹ khá tốt — mẹ rất tin tưởng. Hay bị hối lấy vợ, hiểu rõ tâm lý đó xuất phát từ cuộc sống của họ nên không phản ứng tiêu cực. Bố mẹ ở Đắk Lắk, mình ở HCM — về thăm khoảng vài tháng một lần, thường kết hợp với dịp lễ hoặc khi có nhiều việc cần giải quyết cùng lúc. Hiện sống ở Quận 3. Em gái Mai (sinh 2006, học marketing) ở Thủ Đức — cùng thành phố nhưng không gần.
 
