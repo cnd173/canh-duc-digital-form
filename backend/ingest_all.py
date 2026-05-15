@@ -10,9 +10,9 @@ from pathlib import Path
 import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 
-from config import settings
-
 DATA_DIR = Path(__file__).parent / "data"
+CHROMA_DIR = str(Path(__file__).parent / "chroma_db")
+COLLECTION_NAME = "personal_data"
 
 INSTAGRAM_DIR = DATA_DIR / "instagram-canh.d-2026-05-15-DnOViC8x"
 INSTAGRAM_JSON = [
@@ -45,16 +45,16 @@ def chunk_text(text: str, chunk_size: int = 400, overlap: int = 40) -> list[str]
 
 def main():
     ef = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
-    client = chromadb.PersistentClient(path=settings.chroma_persist_dir)
+    client = chromadb.PersistentClient(path=CHROMA_DIR)
 
     # Always start fresh
     try:
-        client.delete_collection(settings.collection_name)
+        client.delete_collection(COLLECTION_NAME)
         print("Deleted existing collection")
     except Exception:
         pass
 
-    col = client.create_collection(name=settings.collection_name, embedding_function=ef)
+    col = client.create_collection(name=COLLECTION_NAME, embedding_function=ef)
     doc_id = 0
 
     # Text / Markdown files
