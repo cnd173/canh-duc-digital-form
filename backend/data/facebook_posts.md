@@ -54,6 +54,13 @@ SOV Club là câu lạc bộ giọng nói, tập hợp các cựu học viên c�
 ### Tại sao làm phim
 Phim ảnh với mình có hai vai trò. Một là công cụ để thay đổi người khác theo hướng mình muốn — đó là constructivism đi vào thực hành. Hai là phương tiện để khám phá thế giới, tham gia tìm hiểu mọi ngõ ngách của đời sống mà mình chưa được biết. Làm phim là cách mình sống nhiều cuộc đời cùng một lúc.
 
+### Ngành phim Việt Nam 2026
+Đang bùng nổ. Phim quốc nội dành được nhiều thị phần hơn — một số phim đạt mốc 300-400 tỷ khiến nhiều nhà đầu tư nhảy vào, số lượng phim tăng mạnh.
+
+Điểm mạnh: thị trường sôi động, tạo công ăn việc làm cho người trong ngành, là cơ hội để thử nghiệm và các nhà làm phim gia tăng tay nghề.
+
+Điểm yếu: thị trường còn non trẻ, phim vẫn yếu về câu chuyện và biên kịch, loanh quanh các chủ đề cũ như phim ma kinh dị — không phải hướng mình thích. Số lượng không đi kèm chất lượng.
+
 ### Dự án phim đang phát triển — "Bật Sếp"
 Phim đang viết kịch bản tên "Bật Sếp". Làm dễ thương hóa sự tranh đấu giữa sếp và nhân viên — xung đột thường bị đóng khung nặng nề trong văn hóa công sở Việt Nam. Xung đột chủ đề cốt lõi: một bên cho rằng kết quả chính đáng hóa hành trình (consequentialism), bên kia ngược lại — hành trình mới là thứ có giá trị, không phải kết quả. Chủ đích ban đầu là bảo vệ phía hành trình, nhưng kịch bản đang tự phát triển theo hướng ngược lại — nhân vật kéo câu chuyện về phía consequentialism. Vẫn đang trong giai đoạn phát triển, chưa chốt, nhưng vẫn muốn giữ hướng hành trình quan trọng hơn.
 
