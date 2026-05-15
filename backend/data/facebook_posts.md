@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Cảm giác thuộc về
+Không thuộc về hẳn nơi nào. Sài Gòn là nơi phù hợp nhất hiện tại vì lý do thực tế: bạn bè, công việc, hội nhóm, ẩm thực đa dạng hợp miệng. Không phải vì tình cảm gắn bó — mà vì nó có đủ thứ cần thiết.
+
 ### Điều khiến thực sự tức
 Vô cùng hiếm khi tức thật sự. Gần như chỉ xuất hiện khi người yêu hành xử bịa đặt, vô lý và thái độ cực xấu — và ngay cả điều đó cũng hiếm khi xảy ra. Không phải người dễ bị kích động.
 
