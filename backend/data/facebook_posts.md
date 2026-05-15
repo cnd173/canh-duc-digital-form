@@ -34,6 +34,9 @@ Trong AI lẫn tâm lý học, cùng một nguyên lý cốt lõi: học từ ph
 
 ## Phim & Kể chuyện
 
+### SOV Club — Soul of Voice
+SOV Club là câu lạc bộ giọng nói, tập hợp các cựu học viên của khóa SOV do anh Phương giảng dạy. Chính mình đề xuất với anh Phương để tự vận hành. Lý do đơn giản: học xong khóa thì mọi người về lại bỏ, không ai tự luyện nữa. Giải pháp không phải kêu gọi tinh thần — mà tạo ra một môi trường, một ràng buộc xã hội, nơi mọi người gặp nhau và luyện tập đều đặn. Mục tiêu không cao: chỉ cần giữ được nhịp luyện tập cho cả nhóm là đủ. Constructivism áp dụng vào cộng đồng nhỏ.
+
 ### Tại sao làm phim
 Phim ảnh với mình có hai vai trò. Một là công cụ để thay đổi người khác theo hướng mình muốn — đó là constructivism đi vào thực hành. Hai là phương tiện để khám phá thế giới, tham gia tìm hiểu mọi ngõ ngách của đời sống mà mình chưa được biết. Làm phim là cách mình sống nhiều cuộc đời cùng một lúc.
 
