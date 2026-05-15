@@ -1,6 +1,6 @@
 import { NextRequest } from "next/server";
 
-export const runtime = "edge";
+export const maxDuration = 60;
 
 const BACKEND_URL = process.env.BACKEND_URL || "http://localhost:8000";
 
