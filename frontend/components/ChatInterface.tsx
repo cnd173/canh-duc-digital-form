@@ -1,69 +1,39 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import ConversationSidebar from "./ConversationSidebar";
 import InputBar from "./InputBar";
 import Message, { MessageType } from "./Message";
-
-const STORAGE_KEY = "cnd_chat_history";
-
-const WELCOME: MessageType = {
-  role: "assistant",
-  content: "Chào! Mình là phiên bản số của Cảnh Đức. Mình đang nói chuyện với ai vậy?",
-  isWelcome: true,
-};
-
-function loadMessages(): MessageType[] {
-  if (typeof window === "undefined") return [WELCOME];
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return [WELCOME];
-    const parsed = JSON.parse(raw) as MessageType[];
-    return parsed.length > 0 ? parsed : [WELCOME];
-  } catch {
-    return [WELCOME];
-  }
-}
-
-function saveMessages(msgs: MessageType[]) {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(msgs));
-  } catch {}
-}
+import { useConversations } from "../hooks/useConversations";
 
 export default function ChatInterface() {
-  const [messages, setMessages] = useState<MessageType[]>([WELCOME]);
+  const { convs, currentId, current, hydrated, updateMessages, switchTo, addNew, deleteConv } =
+    useConversations();
+
   const [input, setInput] = useState("");
   const [streaming, setStreaming] = useState(false);
-  const [hydrated, setHydrated] = useState(false);
+  const [showSidebar, setShowSidebar] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
 
-  // Load from localStorage after hydration
-  useEffect(() => {
-    setMessages(loadMessages());
-    setHydrated(true);
-  }, []);
+  const messages: MessageType[] = current?.messages ?? [];
 
-  // Save to localStorage on every change (skip streaming state)
-  useEffect(() => {
-    if (!hydrated) return;
-    const toSave = messages.filter((m) => !m.streaming);
-    saveMessages(toSave);
-  }, [messages, hydrated]);
+  function setMessages(updater: MessageType[] | ((prev: MessageType[]) => MessageType[])) {
+    const next = typeof updater === "function" ? updater(messages) : updater;
+    // Skip saving while a message is still streaming
+    const hasStreaming = next.some((m) => m.streaming);
+    if (!hasStreaming) updateMessages(next);
+    // Force re-render by updating via hook
+    updateMessages(next);
+  }
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  function sendGif(url: string, description: string) {
+  function sendGif(url: string, desc: string) {
     if (streaming) return;
-    // content is sent to AI so it knows what GIF was shared; gifUrl renders the image in UI
-    const gifMsg: MessageType = { role: "user", content: `[Gửi GIF: ${description}]`, gifUrl: url };
-    setMessages((prev) => [...prev, gifMsg]);
-  }
-
-  function resetConversation() {
-    setMessages([WELCOME]);
-    localStorage.removeItem(STORAGE_KEY);
+    const gifMsg: MessageType = { role: "user", content: `[Gửi GIF: ${desc}]`, gifUrl: url };
+    updateMessages([...messages, gifMsg]);
   }
 
   async function send() {
@@ -73,12 +43,12 @@ export default function ChatInterface() {
     const userMsg: MessageType = { role: "user", content: text };
     const history = [...messages, userMsg];
 
-    setMessages(history);
+    updateMessages(history);
     setInput("");
     setStreaming(true);
 
     const assistantMsg: MessageType = { role: "assistant", content: "", streaming: true };
-    setMessages([...history, assistantMsg]);
+    updateMessages([...history, assistantMsg]);
 
     try {
       const res = await fetch("/api/chat", {
@@ -96,6 +66,7 @@ export default function ChatInterface() {
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let accumulated = "";
+      let latest = [...history, { role: "assistant" as const, content: "", streaming: true }];
 
       while (true) {
         const { done, value } = await reader.read();
@@ -113,35 +84,61 @@ export default function ChatInterface() {
             } else {
               accumulated += parsed.text ?? "";
             }
-            setMessages((prev) => {
-              const next = [...prev];
-              next[next.length - 1] = { role: "assistant", content: accumulated, streaming: true };
-              return next;
-            });
+            latest = [
+              ...history,
+              { role: "assistant" as const, content: accumulated, streaming: true },
+            ];
+            updateMessages(latest);
           } catch {}
         }
       }
 
-      setMessages((prev) => {
-        const next = [...prev];
-        next[next.length - 1] = { role: "assistant", content: accumulated, streaming: false };
-        return next;
-      });
+      updateMessages([
+        ...history,
+        { role: "assistant" as const, content: accumulated, streaming: false },
+      ]);
     } catch {
-      setMessages((prev) => {
-        const next = [...prev];
-        next[next.length - 1] = { role: "assistant", content: "Có lỗi xảy ra rồi. Backend đang chạy chưa vậy?", streaming: false };
-        return next;
-      });
+      updateMessages([
+        ...history,
+        {
+          role: "assistant" as const,
+          content: "Có lỗi xảy ra rồi. Backend đang chạy chưa vậy?",
+          streaming: false,
+        },
+      ]);
     } finally {
       setStreaming(false);
     }
   }
 
+  if (!hydrated) return null;
+
   return (
     <div className="relative z-10 flex flex-col h-screen">
+      {showSidebar && (
+        <ConversationSidebar
+          convs={convs}
+          currentId={currentId}
+          onSelect={switchTo}
+          onNew={addNew}
+          onDelete={deleteConv}
+          onClose={() => setShowSidebar(false)}
+        />
+      )}
+
       {/* Header */}
       <header className="border-b border-white/[0.07] bg-black/40 backdrop-blur-2xl px-6 py-4 flex items-center gap-4">
+        {/* History button */}
+        <button
+          onClick={() => setShowSidebar(true)}
+          title="Lịch sử trò chuyện"
+          className="w-9 h-9 flex-shrink-0 rounded-xl border border-white/10 bg-white/[0.04] text-white/35 flex items-center justify-center hover:bg-white/10 hover:border-white/20 hover:text-white/65 transition-all"
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+
         <div className="relative w-10 h-10 flex-shrink-0">
           <div className="absolute inset-0 rounded-full bg-white/20 blur-lg animate-orb" />
           <div className="relative w-10 h-10 rounded-full border border-white/20 bg-gradient-to-br from-white/15 to-blue-200/5 backdrop-blur flex items-center justify-center">
@@ -150,29 +147,15 @@ export default function ChatInterface() {
         </div>
 
         <div>
-          <h1 className="text-sm font-semibold text-white/90 leading-tight tracking-wide">Cảnh Đức Digital Form</h1>
+          <h1 className="text-sm font-semibold text-white/90 leading-tight tracking-wide">
+            {current?.title === "Cuộc trò chuyện mới" ? "Cảnh Đức Digital Form" : current?.title}
+          </h1>
           <p className="text-[11px] text-white/35 leading-tight mt-0.5">Luôn ở đây, luôn là mình</p>
         </div>
 
-        <div className="ml-auto flex items-center gap-3">
-          <div className="flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-white/80 shadow-[0_0_6px_2px_rgba(255,255,255,0.6)] animate-pulse" />
-            <span className="text-[11px] text-white/35">online</span>
-          </div>
-
-          {messages.length > 1 && (
-            <button
-              onClick={resetConversation}
-              disabled={streaming}
-              title="Cuộc trò chuyện mới"
-              className="w-7 h-7 rounded-lg border border-white/10 bg-white/[0.04] text-white/30 flex items-center justify-center transition-all duration-200 hover:bg-white/10 hover:border-white/20 hover:text-white/60 disabled:opacity-20"
-            >
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="1 4 1 10 7 10" />
-                <path d="M3.51 15a9 9 0 1 0 .49-3.5" />
-              </svg>
-            </button>
-          )}
+        <div className="ml-auto flex items-center gap-2">
+          <span className="w-1.5 h-1.5 rounded-full bg-white/80 shadow-[0_0_6px_2px_rgba(255,255,255,0.6)] animate-pulse" />
+          <span className="text-[11px] text-white/35">online</span>
         </div>
       </header>
 
