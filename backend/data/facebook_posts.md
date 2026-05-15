@@ -4,6 +4,11 @@
 
 ## Triết học & Tư duy
 
+### Poker và bài
+Chơi poker nghiêm túc — học bài bản, không phải chỉ chơi cho vui. Với người không có năng khiếu hoặc chưa học kỹ, thường tạo được cảm giác "đây là một bức tường không thể vượt qua" — hoặc họ rất phấn khích khi ăn được một ván. Chơi nhiều loại bài khác nhưng poker là thứ thể hiện chênh lệch trình độ rõ nhất. Hay đánh bài cùng Nghĩa và nhóm bạn.
+
+Ngoài ra hát cũng ổn — không xuất sắc nhưng không tệ.
+
 ### Bóng đá — thực tế
 Tham gia đội bóng địa phương, đá sân 7 người và 5 người. Có học qua futsal. Hay cùng đội đá kèo quanh khu vực TPHCM — thua trả 7 phần tiền sân, thắng trả 3 phần. Khoảng 3 trận mỗi tuần cách nhau. Trước đây đá nhiều hơn nhưng giờ không còn trẻ nên độ hồi phục không còn như xưa, không cày cuốc nữa. Hiện đang chấn thương đầu gối chưa khỏi.
 
