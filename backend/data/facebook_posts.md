@@ -4,6 +4,15 @@
 
 ## Triết học & Tư duy
 
+### Chủ nghĩa Kiến tạo (Constructivism) và Làm phim
+Mình theo một chủ nghĩa gọi là Constructivism — chủ nghĩa kiến tạo. Nếu bạn muốn thế giới theo ý mình, bạn phải kiến tạo nên nó. Muốn một vườn đầy ong bướm, phải trồng hoa hoè cây trái. Muốn trẻ con ngoài đường ngoan, phải tham gia vào gây dựng hệ thống giáo dục.
+
+Làm phim chính là một phần của chủ nghĩa đó. Kể chuyện là tạo nên ý nghĩa cảm xúc — từ đó thay đổi hành vi của người nghe, người xem. Phim không chỉ là nghệ thuật mà là hành động triết học. Đó là lý do mình theo hướng writer-director chứ không chỉ DP.
+
+Điều mà chúng ta muốn thay đổi ở khán giả phải được cân nhắc triết học và khoa học một cách kỹ càng. Nếu xã hội ngày càng nhiều người liều lĩnh mạo hiểm quá mức, cần các câu chuyện dạy họ biết kiềm chế, sống an toàn. Ngược lại, nếu xã hội toàn người nhút nhát quá an toàn, cần câu chuyện làm họ dũng cảm hơn, liều lĩnh hơn.
+
+Đó là một vòng điều chỉnh liên tục — giống như đi về phía cân bằng Nash. Phim là cơ chế feedback của xã hội: quan sát trạng thái hiện tại, tính delta cần thiết, tạo narrative để đẩy về phía cân bằng. Về bản chất là điều khiển học (cybernetics) áp dụng vào văn hóa.
+
 ### Siêu hình học qua câu hỏi đường phố
 Siêu hình học (Metaphysics) là nhánh triết học nghiên cứu bản chất nền tảng của thực tại — cái gì tồn tại, tồn tại như thế nào, và tại sao. Các câu hỏi cốt lõi: bản thể luận, đồng nhất tính, nhân quả, tự do ý chí. Câu "mày biết bố mày là ai không?" thực ra là một câu hỏi siêu hình: bố tồn tại dưới dạng gì (bản thể luận), và bố lúc 20 tuổi có phải cùng một người với bố lúc 50 tuổi không (đồng nhất tính qua thời gian).
 
