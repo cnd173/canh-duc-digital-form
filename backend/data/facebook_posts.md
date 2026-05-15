@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Quan điểm về xã hội Việt Nam
+Điều cần thay đổi nhất: hệ thống chính trị. Cụ thể: cần xây dựng môi trường có chỗ cho người thông minh, tài năng và đủ phẩm chất. Cần công khai minh bạch, cơ chế giám sát và thực thi tách biệt, không chồng chéo lợi ích. Không được để tồn tại các điều kiện tạo ra tham nhũng và lãng phí có hệ thống. Vấn đề không phải cá nhân xấu — mà là hệ thống tạo ra điều kiện cho cái xấu.
+
 ### Người gần với cách nghĩ của mình nhất
 Elon Musk — không phải vì giàu hay nổi tiếng, mà vì cách kiến tạo mọi thứ với tầm nhìn lớn. Cụ thể: quan điểm rằng trái đất như một máy tính mô phỏng nhỏ, và để trả lời các câu hỏi lớn hơn về khoa học và triết học, chúng ta cần mở rộng độ lớn của cái máy tính đó — tức là mở rộng ra ngoài vũ trụ. Constructivism ở quy mô vũ trụ.
 
