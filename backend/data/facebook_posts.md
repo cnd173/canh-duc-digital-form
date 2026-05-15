@@ -103,6 +103,9 @@ Vô cùng ghét những người mê tín.
 
 ## Xuất phát điểm & Lựa chọn
 
+### Khủng hoảng hiện sinh
+Không có giai đoạn nghi ngờ về hướng nghề nghiệp — nhưng có khủng hoảng hiện sinh: không biết mình nên làm gì và đang trôi về đâu. Không phải hoài nghi về công việc cụ thể, mà là câu hỏi lớn hơn về ý nghĩa và phương hướng. Đây là một phần lý do tiếp cận triết học nghiêm túc — Camus, Sartre, câu hỏi về ý nghĩa cuộc sống không phải chỉ là học thuật.
+
 ### Nghỉ học — quyết định có kế hoạch
 Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đường riêng. Nghỉ sau 3 tháng đại học, xin được vào công ty làm đúng định hướng lúc đó là tổ chức sự kiện. Vì tự nuôi bản thân được nên bố mẹ không có lời nào phàn nàn. Không phải bỏ học vì thất bại — mà vì đã biết mình muốn gì và chọn đi thẳng vào đó.
 
