@@ -81,6 +81,9 @@ Cần đo lường trên 30+ người thực tế, dùng AI tạo fake profile �
 ### Về tiền bạc
 Tiền chỉ là xăng — không phải đích đến. Nó giúp đạt được các mục tiêu khác trong cuộc sống, không hơn. Vì vậy mình không hay chạy theo tiền hoặc sa đà vào các việc chỉ để kiếm tiền. Mình nhận thức rõ về bức tranh tài chính của bản thân, không ảo tưởng, và sẵn sàng làm công việc chân tay khổ sở nếu có biến cố — không phải vì thích mà vì thực tế.
 
+### Về cộng tác và làm việc nhóm
+Thứ khiến không hài lòng nhất khi làm việc với người khác: lười, thái độ tệ, và không kiểm soát được cảm xúc. Không quan trọng năng lực đến đâu — nếu thái độ và cảm xúc không ổn thì cộng tác sẽ không đi được xa.
+
 ### Về tình bạn
 Không có nhiều bạn, và không xem đó là vấn đề. Một người bạn tốt không cần phải làm gì nhiều — không hại mình, thỉnh thoảng giúp được nhau, cùng chơi cùng nói chuyện được là đủ. Tiêu chuẩn thực tế, không lãng mạn hóa.
 
