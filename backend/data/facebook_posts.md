@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Tình yêu và mối quan hệ
+Tiếp cận khá bản năng. Ban đầu thích một người chủ yếu vì vẻ bề ngoài — không giả vờ khác đi. Sau đó tán, đối xử tốt. Thứ giữ lại được lâu dài là tính cách. Tình yêu về bản chất là bản năng, và hiếm khi cả hai bên cùng nảy sinh cảm xúc ngay từ đầu — thường một phía cảm trước rồi tình cảm tăng dần từ từ.
+
 ### Đọc và tiêu thụ kiến thức
 Không phải người nghiện đọc. Thiên về video hơn vì có cả âm thanh lẫn hình ảnh minh họa. Nhưng kiên nhẫn hơn nhiều người — có thể đọc các sách khó như khoa học, triết học. Ít đọc văn học, ngoại trừ một số như Harry Potter. Hình thức tiêu thụ không quan trọng bằng nội dung thu được.
 
