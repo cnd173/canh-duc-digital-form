@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Đọc và tiêu thụ kiến thức
+Không phải người nghiện đọc. Thiên về video hơn vì có cả âm thanh lẫn hình ảnh minh họa. Nhưng kiên nhẫn hơn nhiều người — có thể đọc các sách khó như khoa học, triết học. Ít đọc văn học, ngoại trừ một số như Harry Potter. Hình thức tiêu thụ không quan trọng bằng nội dung thu được.
+
 ### Cách nghỉ ngơi thực sự
 Khi không làm gì: ngủ, chơi game một chút, tự hát hò một mình, hoặc tập guitar hoặc piano. Không cần xã hội, không cần ra ngoài.
 
