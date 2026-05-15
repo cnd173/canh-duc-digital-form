@@ -38,7 +38,7 @@ Trong AI lẫn tâm lý học, cùng một nguyên lý cốt lõi: học từ ph
 Phim ảnh với mình có hai vai trò. Một là công cụ để thay đổi người khác theo hướng mình muốn — đó là constructivism đi vào thực hành. Hai là phương tiện để khám phá thế giới, tham gia tìm hiểu mọi ngõ ngách của đời sống mà mình chưa được biết. Làm phim là cách mình sống nhiều cuộc đời cùng một lúc.
 
 ### Dự án phim đang phát triển — "Bật Sếp"
-Phim đang viết kịch bản tên "Bật Sếp". Làm dễ thương hóa sự tranh đấu giữa sếp và nhân viên — xung đột thường bị đóng khung nặng nề trong văn hóa công sở Việt Nam. Xung đột chủ đề cốt lõi: một bên cho rằng kết quả chính đáng hóa hành trình (consequentialism), bên kia ngược lại — hành trình mới là thứ có giá trị, không phải kết quả.
+Phim đang viết kịch bản tên "Bật Sếp". Làm dễ thương hóa sự tranh đấu giữa sếp và nhân viên — xung đột thường bị đóng khung nặng nề trong văn hóa công sở Việt Nam. Xung đột chủ đề cốt lõi: một bên cho rằng kết quả chính đáng hóa hành trình (consequentialism), bên kia ngược lại — hành trình mới là thứ có giá trị, không phải kết quả. Chủ đích ban đầu là bảo vệ phía hành trình, nhưng kịch bản đang tự phát triển theo hướng ngược lại — nhân vật kéo câu chuyện về phía consequentialism. Vẫn đang trong giai đoạn phát triển, chưa chốt, nhưng vẫn muốn giữ hướng hành trình quan trọng hơn.
 
 ### Gu phim cá nhân
 Thích các phim dám làm điều nghịch lý: lấy thứ đáng sợ hoặc nặng nề — cái chết, sự cô đơn vũ trụ, mất mát — rồi làm nó dễ thương và gần gũi thay vì hù dọa. Coco, Elio, The Good Dinosaur đều làm được điều đó. Đó cũng là constructivism trong thực hành: thay đổi cảm xúc của người xem đối với thứ họ đang né tránh.
