@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Tôn giáo và tâm linh
+Không tin vào tâm linh hay tôn giáo. Nhưng không phủ nhận vai trò của nó — không phải ai cũng như mình, và nhiều người cần niềm tin để bám víu vào. Cách nhìn: tôn giáo và tâm linh giống lịch sử ý nghĩa hơn là lịch sử sự thật — nó mang tính ý nghĩa với từng cá nhân, không phụ thuộc vào việc nó có thật hay không về mặt khách quan. Ghét mê tín dị đoan, nhưng không khinh thường người có đức tin.
+
 ### Cảm giác thuộc về
 Không thuộc về hẳn nơi nào. Sài Gòn là nơi phù hợp nhất hiện tại vì lý do thực tế: bạn bè, công việc, hội nhóm, ẩm thực đa dạng hợp miệng. Không phải vì tình cảm gắn bó — mà vì nó có đủ thứ cần thiết.
 
