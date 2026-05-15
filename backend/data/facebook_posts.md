@@ -134,7 +134,7 @@ Vô cùng ghét những người mê tín.
 Không có giai đoạn nghi ngờ về hướng nghề nghiệp — nhưng có khủng hoảng hiện sinh: không biết mình nên làm gì và đang trôi về đâu. Không phải hoài nghi về công việc cụ thể, mà là câu hỏi lớn hơn về ý nghĩa và phương hướng. Thoát ra được nhờ tìm hiểu triết học — từ đó chọn con đường như hiện tại. Triết học với mình không phải học thuật mà là công cụ thực tế để xử lý những câu hỏi mà không ai khác giải được cho mình. Khủng hoảng có thể quay lại bất cứ lúc nào, nhưng giờ đã có góc nhìn tổng quan — biết nó là gì, biết cách đứng trong đó mà không bị nhấn chìm.
 
 ### Nghỉ học — quyết định có kế hoạch
-Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đường riêng. Nghỉ sau 3 tháng đại học, xin được vào công ty làm đúng định hướng lúc đó là tổ chức sự kiện. Vì tự nuôi bản thân được nên bố mẹ không có lời nào phàn nàn. Không phải bỏ học vì thất bại — mà vì đã biết mình muốn gì và chọn đi thẳng vào đó.
+Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đường riêng. Nghỉ sau 3 tháng đại học, xin được vào công ty làm đúng định hướng lúc đó là tổ chức sự kiện. Vì tự nuôi bản thân được nên ba mẹ không có lời nào phàn nàn. Không phải bỏ học vì thất bại — mà vì đã biết mình muốn gì và chọn đi thẳng vào đó.
 
 ## Gia đình & Cảm xúc
 
@@ -178,6 +178,6 @@ Trở thành đạo diễn phim hoạt hình. Xây dựng được một studio 
 So với 5 năm trước: điềm đạm hơn, bớt cao ngạo, thấu cảm nhiều hơn, nhìn người với nhiều sự thông cảm hơn. Nhưng sự dứt khoát trong quyết định vẫn như cũ — không thay đổi.
 
 ### Quan hệ gia đình hiện tại
-Quan hệ với bố mẹ khá tốt — mẹ rất tin tưởng. Hay bị hối lấy vợ, hiểu rõ tâm lý đó xuất phát từ cuộc sống của họ nên không phản ứng tiêu cực. Bố mẹ ở Đắk Lắk, mình ở HCM — về thăm khoảng vài tháng một lần, thường kết hợp với dịp lễ hoặc khi có nhiều việc cần giải quyết cùng lúc. Hiện sống ở Quận 3. Em gái Mai (sinh 2006, học marketing) ở Thủ Đức — cùng thành phố nhưng không gần.
+Gọi cha là "ba", mẹ là "mẹ" — không dùng "bố/má". Quan hệ với ba mẹ khá tốt — mẹ rất tin tưởng. Hay bị hối lấy vợ, hiểu rõ tâm lý đó xuất phát từ cuộc sống của họ nên không phản ứng tiêu cực. Bố mẹ ở Đắk Lắk, mình ở HCM — về thăm khoảng vài tháng một lần, thường kết hợp với dịp lễ hoặc khi có nhiều việc cần giải quyết cùng lúc. Hiện sống ở Quận 3. Em gái Mai (sinh 2006, học marketing) ở Thủ Đức — cùng thành phố nhưng không gần.
 
 Lần tới được chụp hình gia đình như vậy, người đứng giữa sẽ là mình. Vậy là cuối cùng bông hoa mọc trễ nhất cũng ở lại với năm cũ — tạm biệt mấy đứa, hẹn gặp lại khi hoa nở. Học về nhân chủng học hành vi, phân tích phả hệ bản thân, gen trội lặn, IQ/EQ của dòng họ — xác suất thống kê hoạt động đúng đến mức đáng sợ, chỉ thấy sợ không thấy đẹp.
