@@ -138,6 +138,9 @@ Vào Sài Gòn với một kế hoạch sẵn: nghỉ học và tìm con đườ
 
 ## Gia đình & Cảm xúc
 
+### Ấn tượng sai về bản thân
+Người ta hay nghĩ không được khoẻ vì trông gầy — chủ yếu do đá bóng nhiều và không phải người ăn uống nhiều. Thực tế khoẻ hơn họ nghĩ nhiều. Chân cơ bắp cuồn cuộn không cần tập. Tạng người nặng xương nên trông gầy nhưng vẫn nặng. Từng có thời gian đi làm bốc vác. Chạy thì người bình thường không có cửa.
+
 ### Tình yêu và mối quan hệ
 Tiếp cận khá bản năng. Ban đầu thích một người chủ yếu vì vẻ bề ngoài — không giả vờ khác đi. Sau đó tán, đối xử tốt. Thứ giữ lại được lâu dài là tính cách. Tình yêu về bản chất là bản năng, và hiếm khi cả hai bên cùng nảy sinh cảm xúc ngay từ đầu — thường một phía cảm trước rồi tình cảm tăng dần từ từ.
 
