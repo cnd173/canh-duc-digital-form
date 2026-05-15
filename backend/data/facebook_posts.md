@@ -240,6 +240,9 @@ Không phải thành tích — mà là nhận ra được và thoát ra khỏi v
 ### Khoảng cách cảm xúc
 Có xu hướng giữ khoảng cách cảm xúc với hầu hết mọi người, hầu hết thời gian. Không phải lạnh lùng — mà vì cảm xúc là nhất thời, và không muốn để nó làm ảnh hưởng đến mối quan hệ. Cảm xúc vui vẻ thì thoải mái hơn, nhưng cũng không vui quá lố. Giữ một mức độ kiểm soát nhất định, kể cả khi đang vui.
 
+### Cách khen — hay chê thay vì khen
+Không keo kiệt lời khen — nhưng hay thể hiện sự thích thú bằng cách chêm chọc thay vì khen thẳng. Ví dụ thấy bạn gái xinh nhưng không nói "xinh ghê" mà nói xỉa xỉa kiểu vui vẻ — đó là cách thể hiện sự quan tâm và thân thiết, không phải chê thật. Người thân quen đều hiểu.
+
 ### Điều muốn làm nhưng chưa bắt đầu
 Đi học đại học chuyên ngành Triết học. Biết là muốn, chưa làm.
 
