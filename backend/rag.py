@@ -1,50 +1,25 @@
-import chromadb
-from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
+from pathlib import Path
 
-from config import settings
+_context_cache = None
 
-_collection = None
-
-
-def _get_collection():
-    global _collection
-    if _collection is None:
-        ef = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
-        client = chromadb.PersistentClient(path=settings.chroma_persist_dir)
-        _collection = client.get_or_create_collection(
-            name=settings.collection_name,
-            embedding_function=ef,
-        )
-    return _collection
+DATA_FILES = [
+    Path(__file__).parent / "persona.txt",
+    Path(__file__).parent / "data" / "facebook_posts.md",
+    Path(__file__).parent / "data" / "cach_noi_chuyen.md",
+    Path(__file__).parent / "data" / "mo_ta_cua_gpt.txt",
+    Path(__file__).parent / "data" / "TOLO_Layer0_Philosophical_Foundation.md",
+    Path(__file__).parent / "data" / "TOLO_Layer0_Restructured.md",
+]
 
 
-def retrieve_context(query: str, conversation=None, n_results: int = 8) -> str:
-    collection = _get_collection()
-    if collection.count() == 0:
-        return ""
-
-    # Enrich query with recent conversation context
-    if conversation:
-        recent = " ".join(
-            m.get("content", "") for m in conversation[-3:] if m.get("role") == "user"
-        )
-        if recent:
-            query = f"{query} {recent}"
-
-    results = collection.query(
-        query_texts=[query],
-        n_results=min(n_results, collection.count()),
-    )
-
-    docs = results["documents"][0]
-    metas = results["metadatas"][0]
-
-    if not docs:
-        return ""
-
-    parts = []
-    for doc, meta in zip(docs, metas):
-        source = meta.get("source", "unknown")
-        parts.append(f"[{source}]\n{doc}")
-
-    return "\n\n---\n\n".join(parts)
+def retrieve_context(query: str = "", conversation=None, n_results: int = 8) -> str:
+    global _context_cache
+    if _context_cache is None:
+        parts = []
+        for f in DATA_FILES:
+            if f.exists():
+                content = f.read_text(encoding="utf-8").strip()
+                if content:
+                    parts.append(f"### {f.name}\n{content}")
+        _context_cache = "\n\n---\n\n".join(parts)
+    return _context_cache
