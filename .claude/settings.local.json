@@ -76,7 +76,8 @@
       "Bash(python -c \"import ast; ast.parse\\(open\\('main.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
       "Bash(python3 -c \"import ast; ast.parse\\(open\\('main.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
       "Bash(python3 ingest_all.py)",
-      "Bash(python3 -c \"import ast; ast.parse\\(open\\('ingest_all.py'\\).read\\(\\)\\); print\\('OK'\\)\")"
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\('ingest_all.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\('rag.py'\\).read\\(\\)\\); print\\('OK'\\)\")"
     ]
   }
 }
